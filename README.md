@@ -1,0 +1,2 @@
+# ytlive_to_vvox
+YoutubeLiveの配信コメントを取得してVOICE VOXに読ませるための配信ツール
