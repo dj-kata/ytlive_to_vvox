@@ -1,0 +1,134 @@
+//// 辞書データ
+//// 上から順に適用される
+////
+//// 絵文字は正規表現系を上にすること
+//// 長い単語は上に書いておかないと、SPADA→シングルアナザーDAみたいになってしまうので注意。
+
+# 絵文字
+:thinking_face:,かんがえる
+:loudly_crying_face:,なみだ
+:wave:(:wave:)+,パチパチ
+:waving_hand:(:waving_hand:)+,パチパチ
+:clapping_hands:(:clapping_hands:)+,パチパチ
+:horse:(:horse:)+,ウマウマ
+:racehorse:(:racehorse:)+,ウマウマ
+:pleading_face:,ぴえん
+:yougotthis:,グッド
+:horse:,ウマ
+:racehorse:,ウマ
+:wave:,パチパチ
+:waving_hand:,パチパチ
+:clapping_hands:,パチパチ
+:smiling_face_with_smiling_eyes:,にこにこ
+:smiling_face_with_heart_eyes:,にこにこ
+:smiling_face_with_hearts:,にこにこ
+:smiling_face_with_halo:,ちーん
+:smiling_face_with_tear:,涙
+:smiling_face_with_sunglasses:,グラサン
+:smiling_face:,にこにこ
+
+# 他の絵文字は単語変換の前に消す
+:[a-zA-Z0-9_]+:, 
+
+# 長い単語系
+Inner Spirit,インナースピリット
+SPADA,スパーダ
+copula,コピュラ
+PENDUAL,ペンデュアル
+CastHour,キャストアワー
+SINOBUZ,シノバズ
+INFINITAS,インフィニタス
+kuro kurokawa,くろかわ
+magicalkeyist,マジカルキーイスト
+うるきっきch,うるきっき
+hisui,ひすい
+tatsh,タッシュ
+Lapix,ラピックス
+TSUKKY,つばきち
+DESIRE,デザイア
+BLACKY,ブラッキー
+Awesome,オーサム
+PHOENIX WAN,フェニックスワン
+TORIENA,とりえな
+YUC'e,ゆーしえ
+Toby Fox,トビーフォックス
+NAOKI,なおき
+DOLCE,ドルチェ
+SILLYB,しりびー
+mameyudoufu,まめゆどうふ
+Broken,ぶろーくん
+python,パイソン
+UNDERTALE,アンダーテイル
+RESIDENT,レジデント
+YOSHITAKA,よしたか
+HYPER,ハイパー
+ANOTHER,
+
+# 文字数が少ない単語
+SPA,シングルアナザー
+Play,プレイ
+yuce,ゆーしえ
+DPA,ディーピーアナザー
+DPH,ディーピーハイパー
+DPN,ディーピーノーマル
+SPA,シングルアナザー
+SPH,シングルハイパー
+SPN,シングルノーマル
+SPL,シングルレジェンダリア
+DPL,ディーピーレジェンダリア
+IIDX,ツーディーエックス
+INF,インフィニタス
+BPL,ビーマニプロリーグ
+test,テスト
+2356,にーさんごーろく
+MR.T,ミスターティ
+BPM,ビーピーエム
+24分,にじゅうよんぶ
+16分,じゅうろくぶ
+32分,さんじゅうにぶ
+AAA,トリプルエー
+HCN,ヘルチャージノーツ
+MSS,マルチスピンスクラッチ
+BSS,バックスピンスクラッチ
+w\Z, わら
+ｗｗ+, わらわら
+ｗ\Z, わら
+TAKA,たか
+中原,なかはら
+ the ,ザ
+Ryu,りゅう
+jun,じゅん
+TAG,タグ
+PON,ポン
+Ash,あっしゅ
+
+# 2文字
+GG,グッドゲーム
+AC,アーケード
+R5,アールファイブ
+ww+, わらわら
+今作,こんさく
+運指,うんし
+右鏡,右ミラー
+左鏡,左ミラー
+CN,チャージノーツ
+AA,ダブルエー
+BP,ミスカウント
+AC,アーケード
+CS,家庭用
+ZZ,ダブルゼータ
+A1,エーワン
+A2,エーに
+A3,エーサン
+A4,エーヨン
+A5,エーゴ
+B1,ビーイチ
+B2,ビーニ
+A帯,エーたい
+B帯,ビーたい
+C帯,シーたい
+花冠,はなかんむり
+
+# 1文字
+☆,ほし
+★,くろぼし
